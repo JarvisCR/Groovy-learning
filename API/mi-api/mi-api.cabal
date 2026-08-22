@@ -1,0 +1,35 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.39.6.
+--
+-- see: https://github.com/sol/hpack
+
+name:           mi-api
+version:        0.1.0.0
+synopsis:       API REST simple con Scotty
+description:    Servidor HTTP para probar endpoints REST
+category:       Web
+author:         Tu Nombre
+maintainer:     tu@email.com
+copyright:      2026 Tu Nombre
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+
+executable mi-api-exe
+  main-is: Main.hs
+  other-modules:
+      Paths_mi_api
+  hs-source-dirs:
+      app
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      aeson
+    , base >=4.7 && <5
+    , bytestring
+    , http-types
+    , scotty
+    , text
+    , wai
+    , wai-extra
+  default-language: Haskell2010

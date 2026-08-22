@@ -1,0 +1,14 @@
+/home/jeremy/.ghcup/ghc/9.10.3/lib/ghc-9.10.3/lib/x86_64-linux-ghc-9.10.3/rts-1.0.2/include/ghcversion.h:
+  hash: 7590ea01e313d089c303211ba85b0e4454627be40dcb88be287ed32f7e97187f
+/home/jeremy/dev/learning/Groovy/API/mi-api/.stack-work/dist/x86_64-linux/ghc-9.10.3/build/mi-api-exe/autogen/Paths_mi_api.hs:
+  hash: ec9a5ac6663a03786d74d2e9fde6fc57a61c57880adb72334803a554ff6078f3
+/home/jeremy/dev/learning/Groovy/API/mi-api/.stack-work/dist/x86_64-linux/ghc-9.10.3/build/mi-api-exe/autogen/cabal_macros.h:
+  hash: f41d33c5dc052e046d5b87c341b1e48fcd0ca484398ef771437725367aa64839
+/home/jeremy/dev/learning/Groovy/API/mi-api/app/Main.hs:
+  hash: d6b7581ba9291f52bbee0bd7a9db1aadfc0f591fa4368d39338cd4367944bd2a
+/home/jeremy/dev/learning/Groovy/API/mi-api/mi-api.cabal:
+  hash: 8c8d4a1d3e65d29240f0b5eddf49b279cde5b9d1cf72ca8cfa20e31dbac12fd9
+/home/jeremy/dev/learning/Groovy/API/mi-api/package.yaml:
+  hash: b42dfaf62faa48d343ff80aabcb9a4b7ec9acc2371541d11c158aa876b34b2e1
+/usr/include/stdc-predef.h:
+  hash: 383ff8bd7dcc87deefedd062637f4afe28f85f8be443beda8b41d15e45ef1679

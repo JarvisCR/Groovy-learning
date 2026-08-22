@@ -1,0 +1,5 @@
+cradle:
+  stack:
+    - component: "mi-api:exe:mi-api-exe"
+    # Si tienes library, también:
+    # - component: "mi-api:lib"

@@ -1,0 +1,35 @@
+name:                mi-api
+version:             0.1.0.0
+synopsis:            API REST simple con Scotty
+description:         Servidor HTTP para probar endpoints REST
+author:              Tu Nombre
+maintainer:          tu@email.com
+copyright:           2026 Tu Nombre
+category:            Web
+
+dependencies:
+- base >= 4.7 && < 5
+- scotty >= 0.20
+- text >= 1.2
+- aeson >= 2.0
+- http-types >= 0.12
+- wai >= 3.2
+- wai-extra >= 3.1
+- bytestring >= 0.10
+
+executables:
+  mi-api-exe:
+    main:                Main.hs
+    source-dirs:         app
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    dependencies:
+    - scotty
+    - text
+    - aeson
+    - http-types
+    - wai
+    - wai-extra
+    - bytestring
